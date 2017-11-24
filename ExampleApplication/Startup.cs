@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using ExampleApplication.Models;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -17,6 +19,10 @@ namespace ExampleApplication
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<ExAppDataContext>(options =>
+            {
+                options.UseMySQL("server=localhost;port=3306;database=exampleApplicationDB;uid=exAppUser;password=exAppPass");
+            });
             services.AddMvc();
         }
 

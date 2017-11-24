@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using ExampleApplication.Models;
 namespace ExampleApplication.Controllers
@@ -11,9 +12,9 @@ namespace ExampleApplication.Controllers
             return View();
         }
         
-        public IActionResult About()
+        public IActionResult About(int id)
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = String.Format("Just Testing MVC. ID: {0}.", id);
 
             return View();
         }
