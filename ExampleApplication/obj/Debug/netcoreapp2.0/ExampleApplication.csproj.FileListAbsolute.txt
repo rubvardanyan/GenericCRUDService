@@ -1,0 +1,10 @@
+/Users/meruzh/RiderProjects/ExampleApplication/ExampleApplication/bin/Debug/netcoreapp2.0/ExampleApplication.deps.json
+/Users/meruzh/RiderProjects/ExampleApplication/ExampleApplication/bin/Debug/netcoreapp2.0/ExampleApplication.runtimeconfig.json
+/Users/meruzh/RiderProjects/ExampleApplication/ExampleApplication/bin/Debug/netcoreapp2.0/ExampleApplication.runtimeconfig.dev.json
+/Users/meruzh/RiderProjects/ExampleApplication/ExampleApplication/bin/Debug/netcoreapp2.0/ExampleApplication.dll
+/Users/meruzh/RiderProjects/ExampleApplication/ExampleApplication/bin/Debug/netcoreapp2.0/ExampleApplication.pdb
+/Users/meruzh/RiderProjects/ExampleApplication/ExampleApplication/obj/Debug/netcoreapp2.0/ExampleApplication.csproj.CoreCompileInputs.cache
+/Users/meruzh/RiderProjects/ExampleApplication/ExampleApplication/obj/Debug/netcoreapp2.0/ExampleApplication.AssemblyInfoInputs.cache
+/Users/meruzh/RiderProjects/ExampleApplication/ExampleApplication/obj/Debug/netcoreapp2.0/ExampleApplication.AssemblyInfo.cs
+/Users/meruzh/RiderProjects/ExampleApplication/ExampleApplication/obj/Debug/netcoreapp2.0/ExampleApplication.dll
+/Users/meruzh/RiderProjects/ExampleApplication/ExampleApplication/obj/Debug/netcoreapp2.0/ExampleApplication.pdb
